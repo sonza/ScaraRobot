@@ -1,0 +1,189 @@
+/*write all style code here*/
+
+/* TAGS */
+body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+	background-color: white;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* CLASSES */
+.navbar{
+    background-color: #ffffff;
+    color: black;
+    border: 0;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar .navbar-brand img {
+  height: 50px;
+}
+
+.navbar li a {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background-color: #808080;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+p.robotitle{
+    color: #ff1e08;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+span.robosubtitle{
+    color: black;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     font-weight: bold;
+     font-size: 64px;
+    line-height: 64px;
+}
+
+p.subsubtitle{
+    color: grey;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 16px;
+}
+
+p.abouttitle{
+    color: black;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     font-weight: bold;
+     font-size: 42px;
+}
+
+p.aboutcontent{
+     color: grey;
+     font-family: "Times New Roman", Times, serif;
+     font-size: 24px;
+}
+
+p.modeltitle{
+    color: black;
+    text-align: center;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     font-variant: small-caps;
+     font-size: 36px;
+}
+
+p.modelsubtitle{
+    color: black;
+    text-align: center;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     font-variant: small-caps;
+     font-size: 24px;
+}
+
+p.robotimage{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+/* IDS */
+ #logo-img{
+    background: url("/bhlogo2.png") no-repeat;
+    width: 100px;
+    height: 50px;
+ }
+
+ #giff{
+    background-color: #f2f2f2;
+    float: right;   
+    height: 600px;
+    width: 50%;
+    padding-top: 175px; 
+    padding-left: 125px;
+}
+
+#model{
+    background-color: #f2f2f2;
+}
+
+#scara01{
+    text-align: center;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+
+}
+
+#scara02{
+
+  text-align: center;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+
+}
+    
+#scara03{
+
+  text-align: center;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+
+
+}
+
+#scara04{
+
+  text-align: center;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+    /* how to underline text*?
+
+
+}
+
+ /*
+
+    REMAKE FOOTER
+
+ #footer{
+    background-color: #ff1e08;
+    border: 0;
+ }
+ */
